@@ -5,7 +5,7 @@ use /*
 
 	* Only keep data for Irrigation Districts
 keep if govttypecode == 18
-
+tab year
 *
 foreach var of varlist _all {
 
